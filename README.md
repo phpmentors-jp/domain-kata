@@ -2,6 +2,10 @@
 
 Kata for domain models
 
+[![Total Downloads](https://poser.pugx.org/phpmentors/domain-kata/downloads.png)](https://packagist.org/packages/phpmentors/domain-kata)
+[![Latest Stable Version](https://poser.pugx.org/phpmentors/domain-kata/v/stable.png)](https://packagist.org/packages/phpmentors/domain-kata)
+[![Latest Unstable Version](https://poser.pugx.org/phpmentors/domain-kata/v/unstable.png)](https://packagist.org/packages/phpmentors/domain-kata)
+
 ## Features
 
 * Interfaces for use cases, entities, repositories

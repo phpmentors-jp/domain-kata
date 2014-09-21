@@ -12,7 +12,7 @@ Kata for domain models
 
 ## Installation
 
-Composer Console can be installed using [Composer](http://getcomposer.org/).
+Domain Kata can be installed using [Composer](http://getcomposer.org/).
 
 First, add the dependency to **phpmentors/domain-kata** into your **composer.json** file as the following:
 

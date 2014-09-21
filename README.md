@@ -12,9 +12,9 @@ Kata for domain models
 
 ## Installation
 
-Domain Kata can be installed using [Composer](http://getcomposer.org/).
+`Domain Kata` can be installed using [Composer](http://getcomposer.org/).
 
-First, add the dependency to **phpmentors/domain-kata** into your **composer.json** file as the following:
+First, add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
 
 ```json
 {

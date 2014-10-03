@@ -14,7 +14,7 @@ namespace PHPMentors\DomainKata\Entity\Behavior;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
-interface EqualableInterface
+interface EquatableInterface
 {
     /**
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target

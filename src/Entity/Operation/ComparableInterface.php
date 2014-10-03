@@ -10,7 +10,7 @@
  * distribution, and is available at http://opensource.org/licenses/BSD-2-Clause
  */
 
-namespace PHPMentors\DomainKata\Entity\Behavior;
+namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 

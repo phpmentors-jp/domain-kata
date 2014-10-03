@@ -11,15 +11,15 @@
  * distribution, and is available at http://opensource.org/licenses/BSD-2-Clause
  */
 
-namespace PHPMentors\DomainKata\Entity\Behavior;
+namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
-interface CopyableInterface
+interface EquatableInterface
 {
     /**
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target
      * @return bool
      */
-    public function copyTo(EntityInterface $target);
+    public function equals(EntityInterface $target);
 }

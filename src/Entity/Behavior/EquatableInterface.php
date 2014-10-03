@@ -1,6 +1,7 @@
 <?php
 /*
  * Copyright (c) 2014 GOTO Hidenori <hidenorigoto@gmail.com>,
+ *                    KUBO Atsuhiro <kubo@iteman.jp>,
  * All rights reserved.
  *
  * This file is part of Domain Kata.
@@ -20,5 +21,5 @@ interface EquatableInterface
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target
      * @return bool
      */
-    public function equalTo(EntityInterface $target);
+    public function equals(EntityInterface $target);
 }

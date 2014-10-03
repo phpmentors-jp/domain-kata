@@ -14,7 +14,7 @@ namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
-interface ComparableInterface
+interface ComparableInterface extends OperationInterface
 {
     /**
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target

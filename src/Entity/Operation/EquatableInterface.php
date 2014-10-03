@@ -15,7 +15,7 @@ namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
-interface EquatableInterface
+interface EquatableInterface extends OperationInterface
 {
     /**
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target

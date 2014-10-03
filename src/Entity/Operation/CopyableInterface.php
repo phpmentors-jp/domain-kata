@@ -15,7 +15,7 @@ namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
-interface CopyableInterface
+interface CopyableInterface extends OperationInterface
 {
     /**
      * @param \PHPMentors\DomainKata\Entity\EntityInterface $target

@@ -1,6 +1,7 @@
 <?php
 /*
  * Copyright (c) 2014 GOTO Hidenori <hidenorigoto@gmail.com>,
+ *                    KUBO Atsuhiro <kubo@iteman.jp>,
  * All rights reserved.
  *
  * This file is part of Domain Kata.
@@ -17,8 +18,8 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface CopyableInterface
 {
     /**
-     * @param \PHPMentors\DomainKata\Entity\EntityInterface $from
+     * @param \PHPMentors\DomainKata\Entity\EntityInterface $target
      * @return bool
      */
-    public function copyFrom(EntityInterface $from);
+    public function copyTo(EntityInterface $target);
 }

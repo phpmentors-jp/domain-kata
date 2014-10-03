@@ -17,7 +17,7 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface ComparableInterface extends OperationInterface
 {
     /**
-     * @param \PHPMentors\DomainKata\Entity\EntityInterface $target
+     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $target
      * @return integer
      */
     public function compareTo(EntityInterface $target);

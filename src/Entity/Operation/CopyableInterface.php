@@ -18,7 +18,7 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface CopyableInterface extends OperationInterface
 {
     /**
-     * @param \PHPMentors\DomainKata\Entity\EntityInterface $target
+     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $target
      * @return bool
      */
     public function copyTo(EntityInterface $target);

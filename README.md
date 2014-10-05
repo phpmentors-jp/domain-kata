@@ -20,7 +20,7 @@ First, add the dependency to `phpmentors/domain-kata` into your `composer.json` 
 {
     "require": {
         "phpmentors/domain-kata": "~1.1@dev"
-    },
+    }
 }
 ```
 

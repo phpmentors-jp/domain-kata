@@ -8,7 +8,7 @@ Kata for domain models
 
 ## Features
 
-* Interfaces for use cases, entities, repositories
+* Interfaces for use cases, entities, repositories, and specifications
 
 ## Installation
 

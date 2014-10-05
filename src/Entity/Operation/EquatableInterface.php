@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright (c) 2014 GOTO Hidenori <hidenorigoto@gmail.com>,
- *                    KUBO Atsuhiro <kubo@iteman.jp>,
+ *               2014 KUBO Atsuhiro <kubo@iteman.jp>,
  * All rights reserved.
  *
  * This file is part of Domain Kata.

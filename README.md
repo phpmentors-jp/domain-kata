@@ -8,7 +8,7 @@ Kata for domain models
 
 ## Features
 
-* Interfaces for use cases, entities, repositories
+* Interfaces for use cases, entities, repositories, and specifications
 
 ## Installation
 
@@ -19,7 +19,7 @@ First, add the dependency to `phpmentors/domain-kata` into your `composer.json` 
 ```json
 {
     "require": {
-        "phpmentors/domain-kata": "~1.0@dev"
+        "phpmentors/domain-kata": "1.0.*"
     },
 }
 ```

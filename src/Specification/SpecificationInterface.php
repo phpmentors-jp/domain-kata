@@ -18,7 +18,7 @@ interface SpecificationInterface
 {
     /**
      * @param  \PHPMentors\DomainKata\Entity\EntityInterface $entity
-     * @return boolean
+     * @return bool
      */
     public function isSatisfiedBy(EntityInterface $entity);
 }

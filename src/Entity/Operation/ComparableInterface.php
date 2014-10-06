@@ -18,7 +18,7 @@ interface ComparableInterface extends OperationInterface
 {
     /**
      * @param  \PHPMentors\DomainKata\Entity\EntityInterface $target
-     * @return integer
+     * @return int
      */
     public function compareTo(EntityInterface $target);
 }

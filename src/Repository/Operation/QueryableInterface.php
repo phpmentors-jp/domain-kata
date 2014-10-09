@@ -1,6 +1,7 @@
 <?php
 /*
  * Copyright (c) 2014 GOTO Hidenori <hidenorigoto@gmail.com>,
+ *               2014 KUBO Atsuhiro <kubo@iteman.jp>,
  * All rights reserved.
  *
  * This file is part of Domain Kata.
@@ -13,7 +14,6 @@
 namespace PHPMentors\DomainKata\Repository\Operation;
 
 use PHPMentors\DomainKata\Entity\CriteriaInterface;
-use PHPMentors\DomainKata\Entity\Operation\OperationInterface;
 
 interface QueryableInterface extends OperationInterface
 {

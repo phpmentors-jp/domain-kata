@@ -14,20 +14,10 @@ Kata for domain models
 
 `Domain Kata` can be installed using [Composer](http://getcomposer.org/).
 
-First, add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
+Add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
 
-```json
-{
-    "require": {
-        "phpmentors/domain-kata": "~1.1@dev"
-    }
-}
 ```
-
-Second, update your dependencies as the following:
-
-```console
-composer update phpmentors/domain-kata
+composer require phpmentors/domain-kata "~1.1@dev"
 ```
 
 ## Support

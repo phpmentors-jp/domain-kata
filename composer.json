@@ -2,7 +2,7 @@
     "name": "phpmentors/domain-kata",
     "type": "library",
     "description": "Kata for domain models",
-    "keywords": ["modeling", "design", "architecture"],
+    "keywords": ["modeling", "design", "architecture", "domain driven design", "ddd", "generative programming"],
     "license": "BSD-2-Clause",
     "authors": [
         {

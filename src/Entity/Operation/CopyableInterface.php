@@ -24,8 +24,8 @@ interface CopyableInterface extends OperationInterface
     public function copyFrom(EntityInterface $source);
 
     /**
-     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $target
+     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $destination
      * @return void
      */
-    public function copyTo(EntityInterface $target);
+    public function copyTo(EntityInterface $destination);
 }

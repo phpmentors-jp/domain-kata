@@ -8,6 +8,10 @@ Kata for domain models
 
 `Domain Kata` provides [Kata](http://en.wikipedia.org/wiki/Kata) for domain models that focuses on practice of model-based development such as [domain-driven design](http://en.wikipedia.org/wiki/Domain-driven_design) and [generative programming](http://en.wikipedia.org/wiki/Automatic_programming#Generative_programming), etc. in your project. By using `Domain Kata` in your project, it makes easy to identify models in the project, so it allows you to design any package structure (stop using the `Model` package in your libraries!). And `Domain Kata` will be a base for a domain-oriented framework which takes advantage of type constraints.
 
+![Domain Kata class diagram](https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-12-800.png)
+
+Click [here](https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-12.png) to see the original size.
+
 ## Features
 
 * Interfaces for entities, and its operations

@@ -26,7 +26,7 @@ Click [here](https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diag
 Add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
 
 ```
-composer require phpmentors/domain-kata "~1.2@dev"
+composer require phpmentors/domain-kata "1.2.*"
 ```
 
 ## Support

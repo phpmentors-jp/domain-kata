@@ -11,7 +11,7 @@ Kata for domain models
 ## Features
 
 * Interfaces for entities, and its operations
-* Interfaces for repositories
+* Interfaces for repositories, and its operations
 * Interfaces for specifications
 * Interfaces for use cases
 

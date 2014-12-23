@@ -12,8 +12,15 @@
 
 namespace PHPMentors\DomainKata\Entity;
 
-use Doctrine\Common\Collections\Collection;
-
-interface EntityCollectionInterface extends Collection, EntityInterface
+interface EntityCollectionInterface extends EntityInterface, \Countable, \IteratorAggregate
 {
+    /**
+     * @param EntityInterface $entity
+     */
+    public function add(EntityInterface $entity);
+
+    /**
+     * @param EntityInterface $entity
+     */
+    public function remove(EntityInterface $entity);
 }

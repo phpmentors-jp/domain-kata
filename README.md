@@ -8,7 +8,7 @@ Kata for domain models
 
 `Domain Kata` provides [Kata](http://en.wikipedia.org/wiki/Kata) for domain models that focuses on practice of model-based development such as [domain-driven design](http://en.wikipedia.org/wiki/Domain-driven_design) and [generative programming](http://en.wikipedia.org/wiki/Automatic_programming#Generative_programming), etc. in your project. By using `Domain Kata` in your project, it makes easy to identify models in the project, so it allows you to design any package structure (stop using the `Model` package in your libraries!). And `Domain Kata` will be a base for a domain-oriented framework which takes advantage of type constraints.
 
-<a href="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-12.png" target="_blank"><img src="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-12-700.png" alt="Domain Kata class diagram"></a>
+<a href="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-13.png" target="_blank"><img src="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-13-700.png" alt="Domain Kata class diagram"></a>
 
 ## Features
 
@@ -24,7 +24,7 @@ Kata for domain models
 Add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
 
 ```
-composer require phpmentors/domain-kata "~1.3@dev"
+composer require phpmentors/domain-kata "1.3.*"
 ```
 
 ## Support

@@ -17,7 +17,7 @@ use PHPMentors\DomainKata\Entity\CriteriaInterface;
 interface CriteriaBuilderInterface extends CriteriaInterface, OperationInterface
 {
     /**
-     * @return \PHPMentors\DomainKata\Entity\CriteriaInterface
+     * @return CriteriaInterface
      */
     public function build();
 }

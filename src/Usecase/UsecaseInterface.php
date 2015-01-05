@@ -17,7 +17,7 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface UsecaseInterface
 {
     /**
-     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $entity
+     * @param  EntityInterface $entity
      * @return mixed
      */
     public function run(EntityInterface $entity);

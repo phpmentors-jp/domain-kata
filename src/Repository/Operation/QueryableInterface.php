@@ -18,7 +18,7 @@ use PHPMentors\DomainKata\Entity\CriteriaInterface;
 interface QueryableInterface extends OperationInterface
 {
     /**
-     * @param  \PHPMentors\DomainKata\Entity\CriteriaInterface $criteria
+     * @param  CriteriaInterface $criteria
      * @return mixed
      */
     public function queryByCriteria(CriteriaInterface $criteria);

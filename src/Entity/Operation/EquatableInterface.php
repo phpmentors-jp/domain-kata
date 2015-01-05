@@ -18,7 +18,7 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface EquatableInterface extends OperationInterface
 {
     /**
-     * @param  \PHPMentors\DomainKata\Entity\EntityInterface $target
+     * @param  EntityInterface $target
      * @return bool
      */
     public function equals(EntityInterface $target);

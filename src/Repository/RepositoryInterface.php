@@ -17,12 +17,12 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface RepositoryInterface
 {
     /**
-     * @param \PHPMentors\DomainKata\Entity\EntityInterface $entity
+     * @param EntityInterface $entity
      */
     public function add(EntityInterface $entity);
 
     /**
-     * @param \PHPMentors\DomainKata\Entity\EntityInterface $entity
+     * @param EntityInterface $entity
      */
     public function remove(EntityInterface $entity);
 }

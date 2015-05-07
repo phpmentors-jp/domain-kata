@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (c) 2014 GOTO Hidenori <hidenorigoto@gmail.com>,
+ * Copyright (c) 2015 GOTO Hidenori <hidenorigoto@gmail.com>,
  * All rights reserved.
  *
  * This file is part of Domain Kata.

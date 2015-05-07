@@ -4,6 +4,6 @@ $finder = Symfony\CS\Finder\DefaultFinder::create()
     ;
 
 return Symfony\CS\Config\Config::create()
-    ->fixers(array('-remove_lines_between_uses', '-empty_return'))
+    ->fixers(array('-empty_return', '-blankline_after_open_tag', 'ordered_use', '-phpdoc_no_empty_return'))
     ->finder($finder)
     ;

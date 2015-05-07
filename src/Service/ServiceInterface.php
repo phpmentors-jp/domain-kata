@@ -12,6 +12,9 @@
 
 namespace PHPMentors\DomainKata\Service;
 
+/**
+ * @since Interface available since Release 1.4.0
+ */
 interface ServiceInterface
 {
 }

@@ -12,6 +12,9 @@
 
 namespace PHPMentors\DomainKata\Entity\Operation;
 
+/**
+ * @since Interface available since Release 1.4.0
+ */
 interface IdentifiableInterface extends OperationInterface
 {
     /**

@@ -14,6 +14,9 @@ namespace PHPMentors\DomainKata\Entity\Operation;
 
 use PHPMentors\DomainKata\Entity\EntityInterface;
 
+/**
+ * @since Interface available since Release 1.1.0
+ */
 interface ComparableInterface extends OperationInterface
 {
     /**

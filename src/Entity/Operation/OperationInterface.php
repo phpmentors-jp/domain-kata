@@ -12,6 +12,9 @@
 
 namespace PHPMentors\DomainKata\Entity\Operation;
 
+/**
+ * @since Interface available since Release 1.1.0
+ */
 interface OperationInterface extends \PHPMentors\DomainKata\Operation\OperationInterface
 {
 }

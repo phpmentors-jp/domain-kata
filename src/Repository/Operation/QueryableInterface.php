@@ -15,6 +15,9 @@ namespace PHPMentors\DomainKata\Repository\Operation;
 
 use PHPMentors\DomainKata\Entity\CriteriaInterface;
 
+/**
+ * @since Interface available since Release 1.2.0
+ */
 interface QueryableInterface extends OperationInterface
 {
     /**

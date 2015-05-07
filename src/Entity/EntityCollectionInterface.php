@@ -12,6 +12,9 @@
 
 namespace PHPMentors\DomainKata\Entity;
 
+/**
+ * @since Interface available since Release 1.3.0
+ */
 interface EntityCollectionInterface extends EntityInterface, \Countable, \IteratorAggregate
 {
     /**

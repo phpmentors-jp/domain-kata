@@ -17,7 +17,8 @@ use PHPMentors\DomainKata\Entity\EntityInterface;
 interface SpecificationInterface
 {
     /**
-     * @param  EntityInterface $entity
+     * @param EntityInterface $entity
+     *
      * @return bool
      */
     public function isSatisfiedBy(EntityInterface $entity);

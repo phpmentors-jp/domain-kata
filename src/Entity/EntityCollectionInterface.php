@@ -24,6 +24,7 @@ interface EntityCollectionInterface extends EntityInterface, \Countable, \Iterat
 
     /**
      * @param string|int
+     *
      * @return EntityInterface
      */
     public function get($key);

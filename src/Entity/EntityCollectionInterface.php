@@ -33,4 +33,11 @@ interface EntityCollectionInterface extends EntityInterface, \Countable, \Iterat
      * @param EntityInterface $entity
      */
     public function remove(EntityInterface $entity);
+
+    /**
+     * @return array
+     *
+     * @since Method available since Release 1.4.0
+     */
+    public function toArray();
 }

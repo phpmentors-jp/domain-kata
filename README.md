@@ -20,6 +20,14 @@ Kata for domain models
 
 Add the dependency to `phpmentors/domain-kata` into your `composer.json` file as the following:
 
+Stable version:
+
+```
+composer require phpmentors/domain-kata "1.4.*"
+```
+
+Development version:
+
 ```
 composer require phpmentors/domain-kata "~1.5@dev"
 ```

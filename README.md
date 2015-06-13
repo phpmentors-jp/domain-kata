@@ -6,16 +6,13 @@ Kata for domain models
 [![Latest Stable Version](https://poser.pugx.org/phpmentors/domain-kata/v/stable.png)](https://packagist.org/packages/phpmentors/domain-kata)
 [![Latest Unstable Version](https://poser.pugx.org/phpmentors/domain-kata/v/unstable.png)](https://packagist.org/packages/phpmentors/domain-kata)
 
-`Domain Kata` provides [Kata](http://en.wikipedia.org/wiki/Kata) for domain models that focuses on practice of model-based development such as [domain-driven design](http://en.wikipedia.org/wiki/Domain-driven_design) and [generative programming](http://en.wikipedia.org/wiki/Automatic_programming#Generative_programming), etc. in your project. By using `Domain Kata` in your project, it makes easy to identify models in the project, so it allows you to design any package structure (stop using the `Model` package in your libraries!). And `Domain Kata` will be a base for a domain-oriented framework which takes advantage of type constraints.
-
-<a href="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-13.png" target="_blank"><img src="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-13-700.png" alt="Domain Kata class diagram"></a>
+`Domain Kata` provides [Kata](http://en.wikipedia.org/wiki/Kata) for domain models that focuses on practice of model-based development such as [domain-driven design](http://en.wikipedia.org/wiki/Domain-driven_design), multi-paradigm design and [generative programming](http://en.wikipedia.org/wiki/Automatic_programming#Generative_programming), etc. in your project. By using `Domain Kata` in your project, it makes easy to identify models in the project, so it allows you to design any package structure (stop using the `Model` package in your libraries!). And `Domain Kata` will be a base for a domain-oriented framework which takes advantage of type constraints.
 
 ## Features
 
-* Interfaces for entities, and its operations
-* Interfaces for repositories, and its operations
-* Interfaces for specifications
-* Interfaces for use cases
+`Domain Kata` does not provide any concrete classes, but provides a framework (or a model, or an abstraction) as an implementation of a meta-modeling domain for model-based development in the PHP world. Some types of `Domain Kata` come from domain-driven design, and some are otherwise such as `UsecaseInterface`, `InOutInterface`. The following class diagram describes what the framework is:
+
+<a href="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-14.png" target="_blank"><img src="https://github.com/phpmentors-jp/domain-kata/wiki/images/class-diagram-14-700.png" alt="Domain Kata class diagram"></a>
 
 ## Installation
 
